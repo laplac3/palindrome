@@ -1,0 +1,186 @@
+#The middle function finds the odd entry of the dictionary and subtracts it by 1 then stores that letter as a variable midle
+
+def middle(dic):
+	
+	if dic['a'] % 2 == 1:
+		print 2 % dic['a'] != 0
+		dic['a']-=1
+		middle_var = 'a'
+		return middle_var
+
+	elif dic['b'] % 2  == 1:
+		print 2 % dic['b'] != 0
+		dic['b']-=1
+		middle_var = 'b'
+		return middle_var
+		return dic
+
+	elif dic['c'] % 2 == 1:
+		dic['c']-=1
+		middle_var = 'c'
+		return middle_var, dic
+	
+
+
+	elif dic['d'] % 2 == 1:
+		dic['d']-=1
+		middle_var = 'd'
+		return middle_var
+		return dic
+
+
+	elif dic['e'] % 2 == 1:
+		dic['e']-=1
+		middle_var = 'e'
+		return middle_var
+		return dic
+
+
+	elif dic['f'] % 2 == 1:
+		dic['f']-=1
+		middle_var = 'f'
+		return middle_var
+		return dic
+
+
+	elif dic['g'] % 2 == 1:
+		dic['g']-=1
+		middle_var = 'g'
+		return middle_var
+		return dic
+
+
+	elif dic['h'] % 2 == 1:
+		dic['h']-=1
+		middle_var = 'h'
+		return middle_var
+		return dic
+
+
+	elif dic['i'] % 2 == 1:
+		dic['i']-=1
+		middle_var = 'i'
+		return middle_var
+		return dic
+
+
+	elif dic['j'] % 2 == 1:
+		dic['j']-=1
+		middle_var = 'j'
+		return middle_var
+		return dic
+
+
+	elif dic['k'] % 2 == 1:
+		dic['k']-=1
+		middle_var = 'k'
+		return middle_var
+		return dic
+
+
+	elif dic['l'] % 2 == 1:
+		dic['l']-=1
+		middle_var = 'l'
+		return middle_var
+		return dic
+
+
+	elif dic['m'] % 2 == 1:
+		dic['m']-=1
+		middle_var = 'm'
+		return middle_var
+		return dic
+
+
+	elif dic['n'] % 2 == 1:
+		dic['n']-=1
+		middle_var = 'n'
+		return middle_var
+		return dic
+
+
+	elif dic['o'] % 2 == 1:
+		dic['o']-=1
+		middle_var = 'o'
+		return middle_var
+		return dic
+
+
+	elif dic['p'] % 2 == 1:
+		dic['p']-=1
+		middle_var = 'p'
+		return middle_var
+		return dic
+
+
+	elif dic['q'] % 2 == 1:
+		dic['q']-=1
+		middle_var = 'q'
+		return middle_var
+		return dic
+
+
+	elif dic['r'] % 2 == 1:
+		dic['r']-=1
+		middle_var = 'r'
+		return middle_var
+		return dic
+
+
+	elif dic['s'] % 2 == 1:
+		dic['s']-=1
+		middle_var = 's'
+		return middle_var
+		return dic
+
+
+	elif dic['t'] % 2 == 1:
+		dic['t']-=1
+		middle_var = 't'
+		return middle_var
+		return dic
+
+
+	elif dic['u'] % 2 == 1:
+		dic['u']-=1
+		middle_var = 'u'
+		return middle_var
+		return dic
+
+
+	elif dic['w'] % 2 == 1:
+		dic['w']-=1
+		middle_var = 'w'
+		return middle_var
+		return dic
+
+
+	elif dic['x'] % 2 == 1:
+		dic['x']-=1
+		middle_var = 'x'
+		return middle_var
+		return dic
+
+
+	elif dic['y'] % 2 == 1:
+		dic['y']-=1
+		middle_var = 'y'
+		return middle_var
+		return dic
+
+
+	elif dic['z'] % 2 == 1:
+		dic['z']-=1
+		middle_var = 'z'
+		return middle_var
+		return dic
+
+	else:
+		middle_var = ''
+		return middle_var
+		return dic
+#test		
+dic = {'a':2, 'b':4,'c':4,'d':0,'e':0,'f':0,'g':0,'h':0,'i':0,'j':0,'k':0,'l':0,'m':0,'n':0,'o':0,'p':0,'q':0,'r':0,'s':0,'t':0,'u':0,'v':0,'w':0,'x':0,'y':0,'z':0}
+print middle(dic)
+
+

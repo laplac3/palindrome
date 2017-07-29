@@ -1,0 +1,112 @@
+def string(dic):
+	string = ''
+	
+	for i in range(0,dic['a']):
+		string = string + 'a'
+		i+=1
+		
+	for i in range(0,dic['b']):
+		string = string + 'b'
+		i+=1
+		
+	for i in range(0,dic['c']):
+		string = string + 'c'
+		i+=1
+			
+	for i in range(0,dic['d']):
+		string = string + 'd'
+		i+=1
+			
+	for i in range(0,dic['d']):
+		string = string + 'd'
+		i+=1
+			
+	for i in range(0,dic['e']):
+		string = string + 'e'
+		i+=1
+			
+	for i in range(0,dic['f']):
+		string = string + 'f'
+		i+=1
+			
+	for i in range(0,dic['g']):
+		string = string + 'g'
+		i+=1
+			
+	for i in range(0,dic['h']):
+		string = string + 'h'
+		i+=1
+			
+	for i in range(0,dic['i']):
+		string = string + 'i'
+		i+=1
+			
+	for i in range(0,dic['j']):
+		string = string + 'j'
+		i+=1
+			
+	for i in range(0,dic['k']):
+		string = string + 'k'
+		i+=1
+			
+	for i in range(0,dic['l']):
+		string = string + 'l'
+		i+=1
+			
+	for i in range(0,dic['m']):
+		string = string + 'm'
+		i+=1
+			
+	for i in range(0,dic['n']):
+		string = string + 'n'
+		i+=1
+			
+	for i in range(0,dic['o']):
+		string = string + 'o'
+		i+=1
+			
+	for i in range(0,dic['p']):
+		string = string + 'p'
+		i+=1
+			
+	for i in range(0,dic['q']):
+		string = string + 'q'
+		i+=1
+			
+	for i in range(0,dic['r']):
+		string = string + 'r'
+		i+=1
+			
+	for i in range(0,dic['s']):
+		string = string + 's'
+		i+=1
+			
+	for i in range(0,dic['t']):
+		string = string + 't'
+		i+=1
+			
+	for i in range(0,dic['u']):
+		string = string + 'u'
+		i+=1
+			
+	for i in range(0,dic['v']):
+		string = string + 'v'
+		i+=1
+			
+	for i in range(0,dic['w']):
+		string = string + 'w'
+		i+=1
+			
+	for i in range(0,dic['x']):
+		string = string + 'x'
+		i+=1
+			
+	for i in range(0,dic['y']):
+		string = string + 'y'
+		i+=1
+			
+	for i in range(0,dic['z']):
+		string = string + 'z'
+		i+=1
+			
+	return string

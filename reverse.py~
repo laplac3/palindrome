@@ -1,0 +1,12 @@
+#revers strings in a array
+
+def rev(array):
+	array2 = []
+	for i in range(0,len(array)):
+		array2.append(array[i][::-1])
+		i+=1
+		
+	return array2
+
+array= ['abc','acb','cab']
+print rev(array)

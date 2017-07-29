@@ -1,0 +1,32 @@
+def half(dic):
+	
+	dic['a'] = dic['a']/2
+	dic['b'] = dic['b']/2
+	dic['c'] = dic['c']/2	
+	dic['d'] = dic['d']/2
+	dic['e'] = dic['e']/2
+	dic['f'] = dic['f']/2
+	dic['g'] = dic['g']/2
+	dic['h'] = dic['h']/2
+	dic['i'] = dic['i']/2
+	dic['j'] = dic['j']/2
+	dic['k'] = dic['k']/2
+	dic['l'] = dic['l']/2
+	dic['m'] = dic['m']/2
+	dic['n'] = dic['n']/2
+	dic['o'] = dic['o']/2
+	dic['p'] = dic['p']/2
+	dic['q'] = dic['q']/2
+	dic['r'] = dic['r']/2
+	dic['s'] = dic['s']/2
+	dic['t'] = dic['t']/2
+	dic['u'] = dic['u']/2
+	dic['v'] = dic['v']/2
+	dic['w'] = dic['w']/2
+	dic['x'] = dic['x']/2
+	dic['y'] = dic['y']/2
+	dic['z'] = dic['z']/2
+	return dic
+	
+
+

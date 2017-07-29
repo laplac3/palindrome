@@ -1,0 +1,138 @@
+# the function create_dic creates dictionary of entries of letters in a given word
+
+def create_dic(word):
+	dic = {'a':0, 'b':0,'c':0,'d':0,'e':0,'f':0,'g':0,'h':0,'i':0,'j':0,'k':0,'l':0,'m':0,'n':0,'o':0,'p':0,'q':0,'r':0,'s':0,'t':0,'u':0,'v':0,'w':0,'x':0,'y':0,'z':0}
+	
+	for i in range(0,len(word)-1):
+		if word[i] == 'a':
+			dic['a']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'b':
+			dic['b']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'c':
+			dic['c']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'd':
+			dic['d']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'e':
+			dic['e']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'f':
+			dic['f']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'g':
+			dic['g']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'h':
+			dic['h']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'i':
+			dic['i']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'j':
+			dic['j']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'k':
+			dic['k']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'l':
+			dic['l']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'm':
+			dic['m']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'n':
+			dic['n']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'o':
+			dic['o']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'p':
+			dic['p']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'q':
+			dic['q']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'r':
+			dic['r']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 's':
+			dic['s']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 't':
+			dic['t']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'u':
+			dic['u']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'v':
+			dic['v']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'w':
+			dic['w']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'x':
+			dic['x']+=1
+			i+=1
+			print dic
+			
+		elif word[i] == 'y':
+			dic['y']+=1
+			i+=1
+			print dic
+
+		else:
+			dic['z']+=1
+			i+=1
+			print dic
+	return dic
+
+
